@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-var TESTER = document.getElementById('tester');
+ var TESTER = document.getElementById('tester');
 
  var trace1 = {
       x: ["blue 470", "cyan525", "green560", "yellow 585", "orange600", "red645", "deepred700", "IR1735", "IR2810", "IR3880", "IR4940"],
@@ -7,8 +7,10 @@ var TESTER = document.getElementById('tester');
       mode: 'markers',
       type: 'scatter',
       name: 'Team A',
+      text: ['A-1', 'A-2', 'A-3', 'A-4', 'A-5'],
       mode: 'lines-markers',
       marker: { size: 20 }
+       
 var data = [trace1];
 
 var layout = {
@@ -18,7 +20,7 @@ var layout = {
  },
  yaxis: {
    title: 'Reflection',
- }
+   }
  };
 
    Plotly.newPlot('tester', data, layout};
