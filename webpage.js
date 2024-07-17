@@ -1,3 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.plot.ly/plotly-2.32.0.min.js" charset="utf-8"></script>
+  <div id="tester" style="width:600px;height:250px;"></div>
+</head>
+ 
+<body>
+  ^_^
+  <script src="webpage.js"></script>
+</body>
+
 var layout = {
  </script> 
     <script>
