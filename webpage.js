@@ -20,5 +20,5 @@ var layout = {
  }
  };
 
-     Plotly.newPlot('tester', data, layout};
+   Plotly.newPlot('tester', data, layout};
 }};
