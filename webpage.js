@@ -1,4 +1,5 @@
-   TESTER = document.getElementById('tester');
+document.addEventListener('DOMContentLoaded', function() {
+var TESTER = document.getElementById('tester');
 
  var trace1 = {
       x: ["blue 470", "cyan525", "green560", "yellow 585", "orange600", "red645", "deepred700", "IR1735", "IR2810", "IR3880", "IR4940"],
