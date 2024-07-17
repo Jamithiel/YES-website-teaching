@@ -1,8 +1,3 @@
- <body>
-  ^_^
-  <script src="webpage.js"></script>
-</body>
-
 var layout = {
  </script> 
     <script>
